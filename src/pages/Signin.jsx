@@ -5,7 +5,7 @@ import Input from '../components/Input'
 export default function Signin() {
     
     return(
-        <div className="flex flex-col items-center justify-around bg-zinc-900 rounded p-8 w-[35rem] h-[35rem]">
+        <div className="flex flex-col items-center justify-around bg-[#2E2E2E] shadow-sm  rounded p-8 w-[35rem] h-[35rem]">
             <img src={logo} className="w-44" alt='diowallet logo'/>
             <form action="" className="flex flex-col justify-center gap-4 w-full text-2xl ">
                 <Input type="email" placeholder="Email"/>
