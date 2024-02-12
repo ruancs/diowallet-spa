@@ -11,7 +11,6 @@ export default function Signin() {
                 <Input type="email" placeholder="Email"/>
                 <Input type="password" placeholder="Password"/>
                 <Button type="submit" text="SIGNIN"/>
-                
             </form>
             <p className="text-white text-1xl">Dont have an account? Register</p>
         </div>
