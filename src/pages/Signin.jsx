@@ -7,7 +7,7 @@ export default function Signin() {
     return(
         <div className="flex flex-col items-center justify-around bg-[#2E2E2E] shadow-sm  rounded p-8 w-[35rem] h-[35rem]">
             <img src={logo} className="w-44" alt='diowallet logo'/>
-            <form action="" className="flex flex-col justify-center gap-4 w-full text-2xl ">
+            <form action="" className="flex flex-col justify-center gap-4 w-full text-2xl">
                 <Input type="email" placeholder="Email"/>
                 <Input type="password" placeholder="Password"/>
                 <Button type="submit" text="SIGNIN"/>
